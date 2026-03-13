@@ -372,7 +372,7 @@ def save_json(json_data: Dict, output_path: str):
 def main():
     """主函数"""
     # MD文件路径
-    md_file = r"C:\Users\miaoxu-jwk\测试用例_金科标品V3.6.13_保证人功能.md"
+    md_file = r"C:\Users\miaoxu-jwk\模板.md"
 
     # 检查文件是否存在
     if not Path(md_file).exists():
